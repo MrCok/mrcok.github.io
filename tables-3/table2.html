@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="сss/style.css">
+    <title>Таблица #2</title>
+</head>
+<body>
+    <h2>Таблица #2</h2>
+    <nav>
+        <a href="table2.html">Таблица 2</a>
+        <a href="table1.html">Таблица 1</a>
+    </nav>
+    <!-- table>caption+tr*3>td*3 -->
+    <table class="table2">
+        <caption>РОДИТЕЛЬСКАЯ</caption>
+        <tr>
+            <td colspan="2">1-2</td>
+            <!-- <td>2</td> -->
+            <td class="tdthree">3</td>
+        </tr>
+        <tr>
+            <td class="tdfour">4</td>
+            <td colspan="2" rowspan="2">
+                <table class="table3">
+                    <caption>ДОЧЕРНЯЯ</caption>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="3">2-5-8</td>
+                        <td class="mywid" rowspan="2">3-6</td>
+                    </tr>
+                    <tr>
+                        <td class="mywid" rowspan="2">4-7</td>
+                        <!-- <td colspan="3">5</td> -->
+                        <!-- <td>6</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td>7</td> -->
+                        <!-- <td>2-5-8</td> -->
+                        <td>9</td>
+                    </tr>
+                </table>
+            </td>
+           <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <td>7</td>
+            <!-- <td>8</td> -->
+            <!-- <td>9</td> -->
+        </tr>
+    </table>
+
+</body>
+</html>

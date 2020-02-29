@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Форма Регистрации</title>
+</head>
+<body>
+    <h2 class="zagolovok">Регистрация</h2>
+    <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="gallery.html">Галерея изображений</a></li>
+        <li><a href="register.html">Регистрация</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+
+    <form class="registr" action="register.php" method="GET">
+        <fieldset>
+            <legend>Форма Регистрации</legend>
+            <label>Выберите пол:</label>
+            <label class="checks">
+                <input type="radio" name="title" value="men">Мужской
+            </label>
+            <label class="checks">
+                <input type="radio" name="title" value="women">Женский
+            </label>
+            <div class="letter">
+                <label for="first_name">Имя</label>
+                <input id="first_name" type="text" name="first_name" placeholder="Имя">
+            </div>
+            <div class="letter">
+                <label for="second_name">Фамилия</label>
+                <input id="second_name" type="text" name="second_name" placeholder="Фамилия">
+            </div>
+            <div class="letter">
+                <label for="last_name">Отчество</label>
+                <input id="last_name" type="text" name="last_name" placeholder="Отчество">
+            </div>
+            <div>
+                <label>Добавьте фото</label>
+                <input type="file" name="foto" accept="image/jpeg, image/png">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input class="email" id="email" type="email" name="email" placeholder="email">
+            </div>
+            <div>
+                <label for="pass">Пароль</label>
+                <input id="pass" type="password" name="password">
+            </div>
+            <div>
+                <label for="site">Адрес сайта</label>
+                <input id="site" type="text" value="mysite.name">
+            </div>
+            <div>
+                <label>Дата рождения</label>
+                <input type="date" name="birthday">
+            </div>
+            <div class="checki">
+                <label>Любимая кухня</label>
+                <label><input name="it" type="checkbox">Итальянская</label>
+                <label><input name="grz" type="checkbox">Грузинская</label>
+                <label><input name="mk" type="checkbox">Мексиканская</label>
+                <label><input name="grch" type="checkbox">Греческая</label>
+            </div>
+            <div>Ваши пожелания <br>
+                <textarea rows="8" cols="40" name="text"> </textarea>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Прими решение</legend>
+            <input type="submit" value="Зарегистрироваться">
+            <input type="reset" value="Очистить форму">
+        </fieldset>
+    </form>
+
+    <footer>
+        <p> &copy; 2020 :) Sergej Raspopov</p>
+    </footer>
+</body>
+</html>

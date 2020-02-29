@@ -1,0 +1,60 @@
+
+html {
+    font-family: Arial, Helvetica, serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav a {
+    padding: 0 5px;
+}
+.table1 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+}
+.table1 td {
+    border: 1px solid #777777;
+    height: 47px;
+    width: 33.33%
+}
+.table1 .five-six {
+    height: 197px;
+}
+.table2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table2 td {
+    border: 1px solid #777777;
+    height: 47px;
+}
+.tdfour {
+    width: 28%;
+}
+.tdthree {
+    width: 60%;
+}
+.table3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table3 td {
+    border: 1px solid #777777;
+    width: 33.33%;
+}
+.table3 .mywid {
+    height: 197px;
+}

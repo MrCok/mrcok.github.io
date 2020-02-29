@@ -1,0 +1,165 @@
+html {
+    background: url(../img/background1.jpg); 
+}
+body {
+    margin: 50px auto 0;
+    max-width: 1000px;
+    background: #ffffff url(../img/css.png) no-repeat 860px 0px;
+    background-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 25px 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+ul li {
+    padding: 7px 0;
+    list-style-type: none;
+}
+ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #388fd9;
+    text-decoration: none;
+    font-size: 20px;
+    background: #f1f6fa;
+    border: 1px solid #dfdddd;
+    padding: 4px;
+}
+ul li a:hover {
+    text-decoration: underline;
+    color: #e14e4e;
+    background: #e2eef8;
+}
+ul li a:active {
+    color: red;
+}
+h3 a {
+    color: #3f8d04;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 a:hover {
+    color:#5ab611;
+}
+.art p a {
+    color: #388fd9;
+}
+.art p a:hover {
+    text-decoration: none;
+    color: #3f8d04;
+}
+.comment {
+    color: grey;
+    text-align: center;
+}
+.comment:hover {
+    color: #c9c5c5;
+}
+.art p {
+    background: rgba(235, 242, 248, 0.48);
+    border: 1px solid #c9c5c5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+article h1 {
+    text-align: center;
+}
+article p::first-letter {
+    color: #e14e4e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+div .catalog {
+   margin: 0 auto;
+}
+.catalog {
+    list-style-image: url(../img/catalog.png);
+    font-size: 22px;
+    background: rgba(33, 98, 175, 0.28);
+    width: 600px;
+}
+.catalog li {
+    padding: 3px 0;
+    margin: 5px 0;
+}
+.catalog .flower {
+    list-style-image: url(../img/shamrock.png);
+}
+
+.catalog .igryshki {
+    list-style-image: url(../img/bear.png);
+}
+.catalog .book {
+    list-style-image: url(../img/book.png);
+}
+.flower, .igryshki, .book {
+    font-size: 17px;
+    background: rgba(54, 156, 214, 0.28);
+}
+.new::after {
+    content: "new";
+    color: #ffffff;
+    background: #f25454;
+    margin: 0 0 5px 5px;
+    font-size: 11px;
+    padding: 1px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #cccccc;
+    font-style: italic;
+}
+footer a {
+    color: #388fdf;
+}
+.zagolovok {
+    text-align: center;
+    color: #2162af;
+    font-size: 27px;
+}
+ol li{
+    display: inline-block;
+}
+ol img {
+    border: 5px solid #5ab611;
+    margin: 5px 10px 0 0;
+}
+ol img:hover {
+    border-color: transparent;
+}
+.registr div {
+    margin: 7px 0;
+}
+.contacts div  {
+    margin: 7px 0;
+}
+.registr input {
+    padding: 5px;
+}
+.registr input[type=text] {
+    width: 150px;
+}
+.registr input[type=password] {
+    width: 100px;
+}
+.registr input[type=email]:focus {
+    color: #388fdf;
+    background: #a9c3e2;
+}
+.registr input[type=submit]:active {
+    background-color:#5ab611;
+}
+.registr input[type=reset]:active {
+    background-color: #e14e4e;
+}
+.checki label:hover , .checks:hover {
+    border: 2px dotted #86c08e;
+}
+.letter input { 
+    text-transform: capitalize;
+}
