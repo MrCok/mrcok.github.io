@@ -1,6 +1,6 @@
 body {
     margin: 50px auto;
-	width: 600px;
+	max-width: 600px;
 	border: 1px solid #cccccc;
 	border-radius: 10px;
 	background: #f9f9f9;
