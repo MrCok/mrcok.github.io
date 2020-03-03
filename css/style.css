@@ -2,6 +2,9 @@ body {
     margin: 50px auto;
     width: 600px;
 }
+html {
+	font-size: 17px;
+}
 footer {
 	margin-top: 100px;
 }
@@ -11,6 +14,7 @@ h1 {
 }
 .up {
 	color: #FE3333;
+	font-size: 34px;
 }
 .badge {
 	display: inline-block;
