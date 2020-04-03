@@ -24,6 +24,9 @@ footer a {
 footer a:hover {
 	color: #db1919;
 }
+.spred {
+	color: #ac0000;
+}
 h1 {
 	text-align: center;
 	color: #007a68;
